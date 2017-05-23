@@ -1,0 +1,72 @@
+body{
+	background-color: black;
+}
+.caja-casa{
+	background-color: blue;
+	height: 600px;
+	width: 800px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.pasto{
+	background-color: pink;
+	height: 30px;
+	width: 800px;
+	position: absolute;
+	bottom: 0;
+}
+
+.rectangulo {
+	width: 300px;
+	height: 200px;
+	background: red;
+	position:absolute;
+	bottom: 30px;
+	right: 150px;
+}
+
+
+
+.ventana {
+	width: 100px;
+	height: 100px;
+	background: white;
+	position:absolute;
+	bottom: 50px;
+	right: 200px;
+}
+
+
+#techo {
+	border-bottom: 100px solid red;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	height: 0;
+	width: 100px;
+	position:absolute;
+	bottom: 230px;
+	right: 150px;
+}
+
+
+.cross {
+	background: red;
+	height: 100px;
+	position: relative;
+	width: 20px;
+	position:absolute;
+	bottom: 50px;
+	right: 250px;
+}
+.cross:after {
+	background: red;
+	content: "";
+	height: 20px;
+	left: -40px;
+	position: absolute;
+	top: 40px;
+	width: 100px;
+	right: 250px;
+
+}
