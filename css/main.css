@@ -2,7 +2,7 @@ body{
 	background-color: black;
 }
 .caja-casa{
-	background-color: blue;
+	background-color: #006699;
 	height: 600px;
 	width: 800px;
 	margin: 0 auto;
@@ -10,7 +10,7 @@ body{
 }
 
 .pasto{
-	background-color: pink;
+	background-color: #003333;
 	height: 30px;
 	width: 800px;
 	position: absolute;
@@ -18,55 +18,110 @@ body{
 }
 
 .rectangulo {
-	width: 300px;
+	width: 350px;
 	height: 200px;
-	background: red;
+	background: #339999;
 	position:absolute;
 	bottom: 30px;
 	right: 150px;
 }
 
-
-
 .ventana {
 	width: 100px;
 	height: 100px;
-	background: white;
+	background: #CCFFFF;
 	position:absolute;
 	bottom: 50px;
 	right: 200px;
 }
 
-
-#techo {
-	border-bottom: 100px solid red;
+.techo {
+	border-bottom: 100px solid #003333;
 	border-left: 50px solid transparent;
 	border-right: 50px solid transparent;
 	height: 0;
-	width: 100px;
+	width: 250px;
 	position:absolute;
 	bottom: 230px;
 	right: 150px;
 }
 
-
-.cross {
-	background: red;
+.marco {
+	background: #339999;
 	height: 100px;
 	position: relative;
 	width: 20px;
 	position:absolute;
 	bottom: 50px;
-	right: 250px;
+	right: 240px;
 }
-.cross:after {
-	background: red;
+.marco:after {
+	background: #339999;
 	content: "";
 	height: 20px;
 	left: -40px;
 	position: absolute;
 	top: 40px;
 	width: 100px;
-	right: 250px;
+	right: 240px;
 
 }
+
+.luna {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	box-shadow: 15px 15px 0 0 #CCFFFF;
+	position: absolute;
+	top: 50px;
+	left: 100px;
+
+}
+
+
+.astro {
+	width: 10px;
+	height: 10px;
+	background: #CCFFFF;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	position: absolute;
+	top: 40px;
+	left: 300px;
+}
+
+.astro2 {
+	width: 5px;
+	height: 5px;
+	background: #CCFFFF;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	position: absolute;
+	top: 70px;
+	left: 350px;
+}
+/* no aparece
+.puerta {
+	width: 40px;
+	height: 80px;
+	background: #003333;
+	position: absolute;
+	top: : 200px;
+	left: 200px;}
+	*/
+
+
+/* no aparece
+.techo2 {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid #003333;
+	position:absolute;
+	bottom: 230px;
+	right: 450px;
+}
+*/
